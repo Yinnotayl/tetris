@@ -155,7 +155,7 @@
         row.forEach((value, x) => {
           if (value !== 0) {
             ctx.strokeStyle = colors[value];
-            ctx.lineWidth = 0.05;
+            ctx.lineWidth = 0.15;
             ctx.strokeRect(x + ghost.pos.x, y + ghost.pos.y, 1, 1);
 
             ctx.fillStyle = 'rgba(0,0,0,0.3)';
