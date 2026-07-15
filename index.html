@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Game</title>
+  <title>Tetris</title>
   <style>
     body {
       background: url('Pics/tetrisBg.png') no-repeat center center fixed;
@@ -158,7 +158,7 @@
             ctx.lineWidth = 0.15;
             ctx.strokeRect(x + ghost.pos.x, y + ghost.pos.y, 1, 1);
 
-            ctx.fillStyle = 'rgba(0,0,0,0.75)';
+            ctx.fillStyle = 'rgba(0,0,0,0.45)';
             ctx.fillRect(x + ghost.pos.x, y + ghost.pos.y, 1, 1);
           }
         });
